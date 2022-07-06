@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID PRO</title>
+    <style>
+        .container {
+            margin-left: 11%;
+            margin-right: 11%;
+            /* height: 600px; */
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            border: 4px double brown;
+            box-shadow: rgba(49, 0, 128, 0.464) 2px 5px 0px 0px;
+background-image: linear-gradient(to right, rgba(146, 144, 247, 0.44),rgba(255, 192, 203, 0.615),rgba(92, 252, 252, 0.416),rgba(255, 255, 61, 0.334),rgba(42, 252, 42, 0.415));
+        }
+
+        .info {
+            grid-column-start: 2;
+            grid-column-end: 5;
+            display: grid;
+
+        }
+
+        .profile {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .img {
+            height: 200px;
+            width: 180px;
+            padding: 5%;
+            border: 2px solid rgba(0, 27, 137, 0.775);
+            border-radius: 25px;
+            box-shadow: rgba(210, 122, 167, 0.774) 0px 5px 0px 4px;
+            background-color: #fff;
+        }
+
+        .info2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .skill {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .skill h3 {
+            border: 2px double purple;
+            padding: 5px;
+            border-radius: 10px;
+            background-color: rgba(255, 223, 14, 0.405);
+        }
+
+        .bun {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        button {
+            margin-bottom: 25px;
+            background-color: rgba(202, 244, 64, 0.744); height: 35px; border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="profile">
+            <div>
+                <img class="img" src="/web development/HTML/anno profile.jpg" alt="">
+            </div>
+            <div>
+                <h2>Name : David Angelo </h2>
+                <h3>Rating : -- // -- </h3>
+            </div>
+        </div>
+        <div class="info">
+            <div class="info1">
+                <h2>Company Name : Iris Infotech</h2>
+                <h3>Web Developer</h3>
+            </div>
+            <div class="info2">
+                <h3> Location : Toronto, Canada</h3>
+                <h3>PIN Code : 413213</h3>
+                <h3>Mob. No. : 987456123</h3>
+                <h3>Email : 123@gmail.com</h3>
+                <h3>Salary : 45 CAD</h3>
+            </div>
+            <div class="skill">
+                <h2>Skills:</h2>
+                <h3>html</h3>
+                <h3>css</h3>
+                <h3>javascript</h3>
+                <h3>tailwind</h3>
+                <h3>bootstrap</h3>
+                <h3>react.js</h3>
+                <h3>node</h3>
+                <h3>express.js</h3>
+            </div>
+            <div>
+                <h3> Discription : Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi numquam veritatis
+                    soluta, consequatur</h3>
+            </div>
+            <div class="bun">
+                <button><b> More...</b></button>
+                <button><b> View Contact</b></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

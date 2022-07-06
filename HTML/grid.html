@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* section 1 */
+        .sec1 {
+            display: flex;
+            gap: 5px;
+        }
+
+        .a1 {
+            border: 2px solid black;
+            height: 450px;
+            width: 550px
+        }
+
+        .a2 {
+            border: 2px solid black;
+            height: 450px;
+            width: 950px;
+            display: flex;
+            gap: 45px;
+        }
+
+        .a21,
+        .a22,
+        .a23 {
+            border: 2px red solid;
+            height: 420px;
+            margin-top: 13px;
+            margin-left: 17px;
+            width: 260px;
+        }
+
+        /* section 2 */
+        #marq {
+            margin-top: 11px;
+            border: 4px solid rgb(98, 24, 218);
+            border-radius: 25px;
+            width: 600px;
+            height: 300px;
+        }
+
+        .sec2 {
+            margin-top: 31px;
+            margin-bottom: 31px;
+            border-top: 3px solid rgb(248, 79, 161);
+            border-bottom: 3px solid rgb(248, 79, 161);
+        }
+
+        /* section 3 */
+        #anno {
+            height: 115px;
+            width: 115px;
+            border: 2.5px solid tomato;
+            border-radius: 15px;margin-left: 30px;
+        }
+
+        #star {
+            width: 150pxpx;
+            height: 150px;
+            margin-top: -40px;
+            margin-left: 10px;
+        }
+
+        .rate {
+            display: flex
+        }
+
+        .li3 {
+            display: flex;
+            gap: 75px;
+        }
+
+        .sec3 {
+            display: flex;
+            margin-top: 25px;
+        }
+
+        .d32 {
+            margin-top: 140px;
+            margin-left: 350px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        /* section 4 */
+        .m4 {
+            display: flex;
+            gap: 15px;
+        }
+
+        .m1,
+        .m2,
+        .m3 {
+            border: 2px solid rgb(28, 73, 217);
+            height: 300px;
+            width: 480px;
+        }
+
+        #con4 {
+            height: 135px;
+            width: 220px;
+            border: 1px double palevioletred;
+            
+        }
+
+        .m1 {
+            gap: 5px;display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+
+        #brave {
+            height: 150px;
+            width: 150px;
+            border: 2px solid #000;
+            border-radius: 50%;
+            margin-top: 20px;
+            margin-left: 20px;
+            ;
+        }
+        #bve{
+            margin-left: 63px;
+        }
+        .m3{
+            display: flex;
+        }
+        .m32{
+        margin-top: 40px; margin-left: 80px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- section 1 -->
+    <section class="sec1">
+        <div class="a1"></div>
+        <div class="a2">
+            <div class="a21"></div>
+            <div class="a22"></div>
+            <div class="a23"></div>
+        </div>
+    </section>
+
+    <!-- section 2 -->
+    <section class="sec2">
+        <!-- The image has scrolling behavior to left -->
+
+        <marquee behavior="scroll" direction="left">
+            <img id="marq" src="/web development/HTML/marq/Screenshot_20200309-175655_YouTube.jpg" alt="">
+            <img id="marq" src="/web development/HTML/marq/yo-yo-honey-singh-10-h.jpg" alt="">
+            <img id="marq" src="/web development/HTML/marq/Screenshot_20171231-205053.png" alt="">
+            <img id="marq" src="/web development/HTML/marq/Screenshot_20171231-205712.png" alt="">
+            <img id="marq" src="/web development/HTML/marq/Screenshot_20180804-212643.png" alt="">
+            <img id="marq" src="/web development/HTML/marq/Screenshot_20200408-014131_YouTube.jpg" alt="">
+        </marquee>
+    </section>
+    <!-- section 3 -->
+    <section class="sec3">
+        <div class="d31">
+            <div class="d311">
+                <img id="anno"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Anonymous_emblem.svg/640px-Anonymous_emblem.svg.png"
+                    alt="">
+            </div>
+            <div class="d312">
+                <h4>Name : David Michelangelo</h4>
+                <div class="rate">
+                    <h4>Ratings : </h4> <img id="star" src="/web development/HTML/rating.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="d32">
+            <li>College Name : St. Francis Institute of Technology</li>
+            <li>Project Name : Thermal Energy</li>
+            <div class="li3">
+                <li>Language : English</li>
+                <li>Mobile No.: 9876543210 </li>
+                <li>Time : 2 Hrs</li>
+            </div>
+            <li>Skills : Html | Css | Javascript | Bootstrap | React | Node.Js | Mongo.D.B
+            </li>
+        </div>
+
+    </section>
+    <!-- section 4 -->
+    <section class="sec4">
+        <div class="m4">
+            <div class="m1">
+                <img id="con4" src="/web development/HTML/conclogo/1.png" alt="">
+                <img id="con4" src="/web development/HTML/conclogo/2.png" alt="">
+                <img id="con4" src="/web development/HTML/conclogo/3.png" alt="">
+                <img id="con4" src="/web development/HTML/conclogo/4.png" alt="">
+            </div>
+            <div class="m2">
+                <h3>Contact Form :</h3>
+                <input type="text" placeholder="F. Name:">
+                <input type="text" placeholder="L. Name:">
+                <input type="text" placeholder="E-mail:">
+                <input type="text" placeholder="Contact No.:">
+                <button>SUBMIT</button>
+            </div>
+
+            <div class="m3">
+                <div class="m31">
+                    <img id="brave" src="/web development/HTML/brave.png" alt="">
+                    <h3 id="bve"> BRAVE
+                    </h3>
+                </div>
+                <div class="m32">
+                    <h2>Information:</h2>
+                    <li>                    name:
+                    </li>
+                   <li> class:</li>
+<li>Address:</li>
+<li>Pin: </li>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

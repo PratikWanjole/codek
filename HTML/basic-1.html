@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic-1</title>
+
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+            border-bottom: 3px solid purple;
+            height: 45px;
+            position: fixed;
+            background-color: rgb(211, 252, 245);
+            top: 0%;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: rgb(255, 4, 0);
+            font-size: large;
+        }
+
+        nav a hover {
+            height: 55px;
+        }
+
+        #logo1 {
+            margin-top: 7px;
+            height: 35px;
+            border: 2px solid rgb(198, 23, 23);
+            border-radius: 6px;
+        }
+
+        nav li {
+            list-style: none;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 35px;
+
+        }
+
+        button {
+            height: 30px;
+            width: 100px;
+            border-radius: 10px;
+            background-color: rgba(249, 67, 219, 0.204);
+            color: rgb(0, 0, 0);
+            margin-right: 35px;
+            margin-top: 2px;
+        }
+
+        /* section 1 part */
+
+        .sec1 {
+            display: flex;
+            gap: 20px;
+
+        }
+
+        .card11,
+        .card12 {
+            border: 2.5px dotted rgb(48, 55, 246);
+            border-radius: 15px;
+            width: 750px;
+            height: 500px;
+            text-align: center;
+            padding-top: 6.5px;
+            margin-top: 80px;
+
+        }
+
+        #discover,
+        #coke {
+            height: 450px;
+            width: 690px;
+            display: grid;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        /* section 2 part */
+
+        .sec2 {
+            display: flex;
+            gap: 25px;
+
+        }
+
+        .card21,
+        .card22,
+        .card23 {
+            border: 2px dotted rgb(26, 18, 14);
+            height: 350px;
+            width: 800px;
+            margin-top: 25px;
+
+        }
+
+        #eng {
+            height: 325px;
+            width: 325px;
+            padding: 1%;
+        }
+
+        /* section 3 part */
+        #form {
+            display: flex;
+            justify-content: center;
+            color: deeppink;
+            font-size: larger;
+        }
+
+        .empty {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+
+        .address {
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+        input {
+            border: 2px solid rgba(103, 43, 172, 0.615);
+        }
+
+
+        /* section 4 part  */
+        .sec4 {
+            margin-top: 35px;
+
+        }
+
+        .feed {
+            display: flex;
+            justify-content: center;
+            color: purple;
+            gap: 35px;
+            text-decoration: underline;
+        }
+
+        .blankfeed {
+            height: 30px;
+            width: 900px;
+            border: 2px solid black;
+        }
+
+
+
+        /* section 5 part */
+        .footerlogo {
+            height: 60px;
+            border: 3px solid rgb(88, 158, 177);
+            border-radius: 6px;
+            display: flex;
+            margin-top: 50px;
+        }
+
+        .fmain {
+            display: flex;
+            gap: 35px;
+            justify-content: space-around;
+            background-color: rgba(39, 184, 237, 0.214);
+        }
+
+        .icons {
+            height: 50px;
+        }
+
+        .icons:hover {
+            height: 60px;
+
+        }
+
+        /* footer */
+        footer {
+            margin-top: 5px;
+            border-top: 3px solid red;
+            display: flex;
+            justify-content: center;
+            font-family: 'Times New Roman', Times, serif;
+            padding-top: 5px;
+            background-image: linear-gradient(to right, rgba(229, 13, 5, 0.61), rgba(240, 229, 16, 0.527), rgba(43, 137, 225, 0.697));
+
+        }
+
+
+
+        /* background-image: linear-gradient(to right, red, yellow, green); */
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href=""> <img id="logo1" src="/web development/HTML/globe.png" alt="logo"></a>
+            </li>
+        </ul>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Gallary</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Collection</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+        <ul>
+            <li> <button>Log In</button></li>
+        </ul>
+    </nav>
+
+    <!-- section 1 part  -->
+
+    <section class="sec1">
+        <div class="card11">Evolution of the Discovery Logo
+            <img id="discover" src="/web development/HTML/Evolution of the Discovery Logo.jpg" alt="">
+        </div>
+        <div class="card12">Evolution Walt Disney Pictures Logo
+            <img id="coke" src="/web development/HTML/Evolution Walt Disney Pictures Logo.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- section 2 part  -->
+    <section class="sec2">
+        <div class="card21"> CHROME
+            <img id="eng" src="/web development/HTML/chrome.jpg" alt="">
+        </div>
+        <div class="card22"> BRAVE
+            <img id="eng" src="/web development/HTML/brave.png" alt="">
+
+        </div>
+        <div class="card23"> EDGE
+            <img id="eng" src="/web development/HTML/edge.png" alt="">
+        </div>
+    </section>
+
+    <!-- section 3 part -->
+
+    <section class="sec3">
+        <h2 id="form">CONTACT FORM :</h2>
+
+        <div class="empty">
+            <input type="text" placeholder="First Name :">
+            <input type="text" placeholder="Last Name :">
+            <input type="text" placeholder="Email :">
+            <input class="address" type="text" placeholder="Address :">
+            <input type="text" placeholder="Phone Number :">
+            <input type="text" placeholder="Pin Code :">
+            <input type="text" placeholder="Landmark :">
+        </div>
+    </section>
+
+
+
+    <!-- section 4 part -->
+
+    <div class="sec4">
+        <h2 class="feed">Your Feedback :
+
+            <input class="blankfeed" type="text">
+        </h2>
+    </div>
+
+    <!-- section 5 part -->
+
+    <section>
+
+        <div class="fmain">
+            <div>
+                <img class="footerlogo" src="/web development/HTML/globe.png" alt="">
+            </div>
+            <div class="service">
+                <h3>Services :</h3>
+                <li>VFX</li>
+                <li>ANIMATION</li>
+                <li>DESIGNS</li>
+            </div>
+            <div class="connect">
+                <h3>Contact Us :</h3>
+                <li>123abc@gmail.com</li>
+                <li>Toronto, Canada</li>
+            </div>
+
+            <div class="media">
+                <h3>Follow Us On :</h3>
+                <div class="icon">
+                    <img class="icons" src="/web development/HTML/instagram.png" alt="">
+                    <img class="icons" src="/web development/HTML/twitter.png" alt="">
+                    <img class="icons" src="/web development/HTML/youtube.png" alt="">
+                    <img class="icons" src="/web development/HTML/facebook.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <b> <i> © - 2022 Third Degree Motions. All Rights Resereved.</i> </b>
+    </footer>
+
+
+</body>
+
+</html>

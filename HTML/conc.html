@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 7.5%;
+            margin-right: 10%;
+            position: fixed;
+            width: 90%;
+            top: 0px;
+            overflow: hidden;
+            background-color: white;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .header {
+            display: grid;
+            justify-content: center;
+        }
+
+        #headerimg {
+            border-radius: 5%;
+        }
+
+        #headingtext {
+            color: gray;
+        }
+
+        #button1 {
+            border-radius: 15px;
+            color: white;
+            background-color: #0066CC;
+            float: right;
+            justify-content: space-between;
+        }
+
+        .texxt {
+            text-align: left;
+            margin-left: 10rem;
+            width: 20%;
+
+        }
+
+        .logos {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+
+        .logos img {
+            height: 140px;
+
+        }
+
+        .section2 {
+            display: flex;
+            gap: 350px;
+        }
+
+        .text {
+            font-size: 30px;
+            line-height: 10px;
+            margin-left: 100px;
+        }
+
+        .section3 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* #cardimg {
+            length: 125px;
+            width: 125px;
+        } */
+
+        #boldtxt {
+            color: white;
+        }
+
+        .card1 {
+            /* border: 1px solid black; */
+            display: flex;
+            gap: 20px;
+            border-radius: 25px;
+            background-color: #575757;
+            color: wheat;
+            width: 50%;
+            height: 10%;
+            padding: 36px 54px 36px 36px;
+            margin-top: 20px;
+            float: right;
+        }
+
+        .text3 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .card2 {
+            display: flex;
+            gap: 20px;
+            border-radius: 25px;
+            background-color: #575757;
+            color: wheat;
+            width: 50%;
+            height: 10%;
+            padding: 36px 54px 36px 36px;
+            margin-top: 20px;
+            float: right;
+        }
+
+        .card3 {
+            display: flex;
+            gap: 20px;
+            border-radius: 25px;
+            background-color: #575757;
+            color: wheat;
+            width: 50%;
+            height: 10%;
+            padding: 36px 54px 36px 36px;
+            margin-top: 20px;
+            float: right;
+        }
+
+        .card4 {
+            display: flex;
+            border-radius: 25px;
+            background-color: #575757;
+            color: wheat;
+            width: 50%;
+            padding: 36px 54px 36px 36px;
+            height: 10%;
+            margin-top: 20px;
+            float: right;
+        }
+
+        li {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .cards3 {
+            justify-content: space-between;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <img src="https://uploads-ssl.webflow.com/62517a5448ad13673bbfeb7f/625452457cc77f7f28839dd9_logo.svg"
+                    alt="Concord Studio Logo">
+            </li>
+            <li>Concord Studio®</li>
+            <li> Digital agenacy, reinvented</li>
+        </ul>
+        <ul> <button id="button1"> Get started </button>
+        </ul>
+    </nav>
+    <div class="header">
+        <div>
+            <h1>Design studio with a fixed fee.</h1>
+            <h1 id="headingtext">We replace unreliable freelancers and</h1>
+            <h1 id="headingtext">expensive agencies for one flat monthly fee.</h1>
+        </div>
+        <div>
+            <img id="headerimg"
+                src="https://uploads-ssl.webflow.com/62517a5448ad13673bbfeb7f/6254690110ab472878fbda60_image.jpg"
+                width="1200" height="700">
+        </div>
+    </div>
+
+    <div class="section2">
+        <div class="text">
+            <p>Who do we work with?</p>
+            <p>Our services have been trusted </p>
+            <p> by 100+ more companies.</p>
+        </div>
+
+        <div class="logos">
+            <img src="/web development/HTML/conclogo/1.png" alt="1logo">
+            <img src="/web development/HTML/conclogo/2.png" alt="2logo">
+            <img src="/web development/HTML/conclogo/3.png" alt="3logo">
+            <img src="/web development/HTML/conclogo/4.png" alt="4logo">
+            <img src="/web development/HTML/conclogo/5.png" alt="5logo">
+            <img src="/web development/HTML/conclogo/6.png" alt="6logo">
+            <img src="/web development/HTML/conclogo/7.png" alt="7logo">
+            <img src="/web development/HTML/conclogo/8.png" alt="8logo">
+            <img src="/web development/HTML/conclogo/9.png" alt="9logo">
+            <img src="/web development/HTML/conclogo/10.png" alt="10logo">
+            <img src="/web development/HTML/conclogo/11.png" alt="11logo">
+            <img src="/web development/HTML/conclogo/12.png" alt="12logo">
+
+        </div>
+    </div>
+
+    <div class="section3">
+
+        <div class="text3">
+            <h1>How does it work? </h1>
+            <h1>Simple, unlimited design</h1>
+            <h1>for a fixed monthly fee.</h1>
+        </div>
+
+        <!-- <div class="card1">
+            <h1>codekul</h1>
+        </div> -->
+        <div class="cards3">
+            <div class="card1">
+                <img id="cardimg" src="/web development/HTML/conclogo/card3 1.png" alt="">
+                <p> <b id="boldtxt"> Fixed monthly rate</b></p>
+                <p>Subscribe and request your designs. No contracts, no minimums, and no fees.</p>
+            </div>
+            <div class="card2">
+                <img id="cardimg" src="/web development/HTML/conclogo/card3 2.png" alt="">
+                <b id="boldtxt">
+                    <p>Unlimited review</p>
+                </b>
+                <p> Receive your design within a few business days, and be updated on the process.</p>
+            </div>
+            <div class="card3">
+                <img id="cardimg" src="/web development/HTML/conclogo/card3 3.png" alt="">
+                <b id="boldtxt">
+                    <p>Totally async</p>
+                </b>
+                <p>Don't like meetings? We don't either, so we have outlawed them completely—async embedded within your
+                    flow.</p>
+            </div>
+            <div class="card4">
+
+                   <li> User interface</li>
+                   <li> User experience</li>
+                  <li>Responsive design</li>
+                  <li> Web apps</li>
+                  <li> iOS+Android</li>
+                  <li> Design systems</li>
+                  <li> Social Media</li>
+                  <li> Online ads</li>
+                  <li> Email design</li>
+                  <li> Presentation decks</li>
+                   <li>Wireframing</li>
+                    
+                
+            </div>
+        </div>
+
+
+</body>
+
+</html>

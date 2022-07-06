@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid profile</title>
+    <style>
+        .container {
+            /* height: 500px; */
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            border: 1px solid rgba(128, 128, 128, 0.621);
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .info {
+            grid-column-start: 2;
+            grid-column-end: 5;
+        }
+
+        .anno {
+            height: 110px;
+            width: 110px; 
+        }
+
+        .profile {
+            display: grid;
+            text-align: center;
+            align-items: center;
+            background-image: linear-gradient(to right, rgba(242, 170, 76, 0.847), rgba(239, 239, 149, 0.905), rgba(140, 251, 140, 0.807));
+
+        }
+
+        .info {
+            display: grid;
+            background-image: linear-gradient(to left, rgba(0, 255, 255, 0.407), rgba(255, 192, 203, 0.723));
+            align-items: center; 
+        }
+
+
+
+        .info2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .info3 {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .info3 h5 {
+            border: 1px solid salmon;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        .info4 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: -20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="profile">
+            <div> <img class="anno" src="/web development/HTML/anno profile.jpg " alt="">
+            </div>
+            <div>
+                <b> Name: David Angelo</b>
+                <blockquote></blockquote>
+                <i> Ratings :</i>
+            </div>
+        </div>
+        <div class="info">
+            <div class="info1">
+                <h4> Company Name :</h4>
+                <h3> Web Developer
+                </h3>
+            </div>
+
+            <div class="info2">
+                <h4>location :</h4>
+                <h4>Pincode :</h4>
+                <h4> Mob. :</h4>
+                <h4>Email :</h4>
+                <h4> Salary :</h4>
+                <h4>Duration :</h4>
+            </div>
+            <div class="info3">
+                <h4>Skills :</h4>
+                <h5>html</h5>
+                <h5>css</h5>
+                <h5>javascript</h5>
+                <h5>bootstrap</h5>
+                <h5>react</h5>
+                <h5>angular</h5>
+                <h5>c</h5>
+                <h5>c++</h5>
+                <h5>php</h5>
+                <h5>java</h5>
+            </div>
+            <div class="info4">
+                <button>More</button>
+                <button>View Contact</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
